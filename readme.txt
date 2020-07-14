@@ -1,7 +1,7 @@
-﻿=== WooCommerce PayU EU Payment Gateway ===
+   === WooCommerce ePayco Payment Gateway ===
 Contributors: payu.pl
 Donate link: https://www.payu.pl/en
-Tags: woocommerce, PayU, payment, payment gateway, platnosci, PayU Poland, PayU EU
+Tags: woocommerce, ePayco
 Requires at least: 3.5.1
 Tested up to: 5.4.0
 Stable tag: 1.3.0
@@ -10,7 +10,7 @@ License: GPLv2
 
 == Description ==
 
-PayU EU Payment Gateway supports:
+ePayco Payment Gateway supports:
 
 * Card payments in various currencies  
 * Polish online transfers and installments
@@ -18,7 +18,7 @@ PayU EU Payment Gateway supports:
 
 = Features =
 
-The PayU Payment Gateway for WooCommerce adds the PayU payment option and enables you to process the following operations in your shop:
+The ePayco Payment Gateway for WooCommerce adds the PayU payment option and enables you to process the following operations in your shop:
 
 * Creating a payment order
 * Updating order status (canceling/completing an order will simultaneously update payment's status)
@@ -26,54 +26,19 @@ The PayU Payment Gateway for WooCommerce adds the PayU payment option and enable
 
 = Usage =
 
-PayU Payment Gateway is visible for your customers as a single "Buy and Pay" button during checkout. After clicking the button customer is redirected to the Payment Summary page to choose payment method. After successful payment customer is redirected back to your shop.
+ePayco Payment Gateway is visible for your customers as a single "Buy and Pay" button during checkout. After clicking the button customer is redirected to the Payment Summary page to choose payment method. After successful payment customer is redirected back to your shop.
 
 == Installation ==
 
-If you do not already have PayU merchant account [please register in Production](https://secure.payu.com/boarding/#/form&pk_campaign=WordpressPlugins&pk_kwd=WooCommerce) or [please register in Sandbox](https://secure.snd.payu.com/boarding/#/form&pk_campaign=WordpressPlugins&pk_kwd=WooCommerce).
+If you do not already have ePayco merchant account [please register in Production](https://dashboard.epayco.co/login?utm_campaign=epayco&utm_medium=button-header&utm_source=web#registro) or [please register in Sandbox](https://dashboard.epayco.co/login?utm_campaign=epayco&utm_medium=button-header&utm_source=web#registro).
 
 **Important:** This plugin works only with **REST API (checkout) points of sales (POS)**.
 
-**If you have any questions or issues, feel free to contact our technical support: tech@payu.pl**
+**If you have any questions or issues, feel free to contact our technical support: soporte@payco.co**
 
 In the Wordpress administration panel:
 
 1. Go to **WooCommerce** -> **Settings section**
 1. Choose **Checkout** tab and scroll down to the **"Payment Gateways"** section
-1. Choose **Settings** option next to the **PayU** name
+1. Choose **Settings** option next to the **ePayco** name
 1. Enable and configure the plugin
-
-== Changelog ==
-
-= 1.3.0 =
-* Add shipping method selector
-= 1.2.9 =
-* Fix error when Multi-currency support is disabled in WPML
-= 1.2.8 =
-* Moved lang to buyer
-* Fixed notice in notification
-= 1.2.7 =
-* Added support for multicurrency provided by WPML
-= 1.2.6 =
-* Sandbox added
-* Cleanup code
-= 1.2.5 =
-* PayU SDK update
-= 1.2.4 =
-* Fix calculate price in products
-* Update SDK
-= 1.2.3 =
-* Fix for WooCommerce 3.x
-= 1.2.2 =
-* added language to redirect URI
-* added e-mail notification
-* added stock reduce
-= 1.2.1 =
-* Fixed extOrderId when other plugin changes WooCommerce order number
-= 1.2.0 =
-* Add Oauth support
-= 1.1.1 =
-* fix notifications
-= 1.1.0 =
-* remove many pos config for currency
-
