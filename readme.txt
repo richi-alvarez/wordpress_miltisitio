@@ -1,6 +1,6 @@
    === WooCommerce ePayco Payment Gateway ===
-Contributors: payu.pl
-Donate link: https://www.payu.pl/en
+Contributors: epayco
+Donate link: https://epayco.co/
 Tags: woocommerce, ePayco
 Requires at least: 3.5.1
 Tested up to: 5.4.0
@@ -18,7 +18,7 @@ ePayco Payment Gateway supports:
 
 = Features =
 
-The ePayco Payment Gateway for WooCommerce adds the PayU payment option and enables you to process the following operations in your shop:
+The ePayco Payment Gateway for WooCommerce adds the ePayco payment option and enables you to process the following operations in your shop:
 
 * Creating a payment order
 * Updating order status (canceling/completing an order will simultaneously update payment's status)
